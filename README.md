@@ -155,7 +155,7 @@ MIT License - see LICENSE file for details.
  ```bibtex
   @misc{seismic2025,
   title={Seismic Magnitude Prediction using Deep Learning},
-  author={Samuel Hayat},
+  author={Sam84723},
   year={2025},
   url={https://github.com/sam84723/seismic_magnitude_predictor}
 }
