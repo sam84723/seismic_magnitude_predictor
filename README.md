@@ -35,7 +35,7 @@ pip install -r requirements.txt
 ```
 ## Usage
 ```python
-    from seismic_magnitude_prediction import run_experiment
+from seismic_magnitude_prediction import run_experiment
 
 # Run best configuration
 results = run_experiment(
@@ -91,24 +91,25 @@ Duration: 5 seconds post P-wave arrival
  ```
 
 ### Class Distribution
+ ```
 Magnitude 3.5-4.5: ~90% of samples (dominant)
 Magnitude 4.5-5.5: ~8% of samples  
 Magnitude 5.5-6.5: ~1% of samples
 Magnitude 6.5-7.5: <0.1% of samples (critical but rare)
-
+ ```
 ## 🔬 Experimental Results
 ### Key Findings
-
+ ```
 100 Hz + Augmentation significantly outperforms other configurations
 Data augmentation is crucial for high-resolution data (prevents overfitting)
 Class imbalance remains the primary challenge for high-magnitude prediction
-
+ ```
 ## Performance by Magnitude Range
-
+ ```
 Mag 3.5-4.5: MAE = 0.224 ✅ (Excellent)
 Mag 4.5-5.5: MAE = 0.766 ⚠️ (Acceptable)
 Mag 5.5+: MAE > 1.3 ❌ (Poor - insufficient data)
-
+ ```
 📋 Requirements
 System Requirements
  ```
