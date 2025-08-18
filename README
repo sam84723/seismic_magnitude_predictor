@@ -147,6 +147,7 @@ MIT License - see LICENSE file for details.
       year={2025},
       url={https://github.com/sam84723/seismic_magnitude_predictor}
     }
+
 🙏 Acknowledgments
     Dr. Itzhak Lior from HUJI university
     Turkish Seismic Network for providing the dataset
