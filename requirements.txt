@@ -1,0 +1,20 @@
+# Core ML & Data Processing
+torch==2.2.2
+torchvision==0.17.2
+numpy==1.26.4
+pandas==2.2.3
+scikit-learn==1.7.1
+
+# Seismic Data Processing
+obspy==1.4.2
+
+# Visualization
+matplotlib==3.10.0
+
+# Data Utilities
+scipy==1.16.0
+tqdm==4.67.1
+
+# Development Environment (optional)
+jupyter==1.1.1
+ipython==9.4.0
