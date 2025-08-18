@@ -152,7 +152,8 @@ ipython==9.4.0
 MIT License - see LICENSE file for details.
 
 # 📚 Citation
- ``` bibtex@misc{seismic2025,
+ ```bibtex
+  @misc{seismic2025,
   title={Seismic Magnitude Prediction using Deep Learning},
   author={Samuel Hayat},
   year={2025},
