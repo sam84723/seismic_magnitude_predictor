@@ -1,7 +1,6 @@
-Ah je vois les problèmes ! 🔍 Ton markdown a quelques erreurs de syntaxe. Voici la version corrigée :
-markdown# Seismic Magnitude Prediction using Deep Learning
 
-A comprehensive machine learning pipeline for predicting earthquake magnitudes from early-stage 3-component seismic waveforms using 1D CNNs with data augmentation and weighted loss strategies.
+
+# A comprehensive machine learning pipeline for predicting earthquake magnitudes from early-stage 3-component seismic waveforms using 1D CNNs with data augmentation and weighted loss strategies.
 
 ## 🌟 Key Features
 
