@@ -1,7 +1,7 @@
-Seismic Magnitude Prediction using Deep Learning
+#Seismic Magnitude Prediction using Deep Learning
 A comprehensive machine learning pipeline for predicting earthquake magnitudes from early-stage 3-component seismic waveforms using 1D CNNs with data augmentation and weighted loss strategies.
 
-🌟 Key Features
+##🌟 Key Features
 
     End-to-end pipeline from raw seismic data to magnitude prediction
     Multi-component analysis using Z, N, E seismic components
@@ -10,7 +10,7 @@ A comprehensive machine learning pipeline for predicting earthquake magnitudes f
     Comprehensive evaluation across different sampling rates and configurations
 
 
-Quick Start
+## Quick Start
 
     Prerequisites
     Core Dependencies
@@ -22,7 +22,8 @@ Quick Start
 Full Environment
     pip install -r requirements.txt
 
-Usage
+##Usage
+```python
     from seismic_magnitude_prediction import run_experiment
 
     # Run best configuration
@@ -98,7 +99,7 @@ Performance by Magnitude Range
     Mag 4.5-5.5: MAE = 0.766 ⚠️ (Acceptable)
     Mag 5.5+: MAE > 1.3 ❌ (Poor - insufficient data)
 
-📋 Requirements
+##📋 Requirements
 System Requirements
 
     Python 3.11+
@@ -113,28 +114,28 @@ This project was developed and tested with:
     ObsPy 1.4.2 for seismic data processing
     NumPy 1.26.4 (ObsPy compatibility requirement)
 
-Core Dependencies
+###Core Dependencies
+```bash
+# Core ML & Data Processing
+torch==2.2.2
+torchvision==0.17.2
+numpy==1.26.4
+pandas==2.2.3
+scikit-learn==1.7.1
 
-    # Core ML & Data Processing
-    torch==2.2.2
-    torchvision==0.17.2
-    numpy==1.26.4
-    pandas==2.2.3
-    scikit-learn==1.7.1
+# Seismic Data Processing
+obspy==1.4.2
 
-    # Seismic Data Processing
-    obspy==1.4.2
+# Visualization
+matplotlib==3.10.0
 
-    # Visualization
-    matplotlib==3.10.0
+# Data Utilities
+scipy==1.16.0
+tqdm==4.67.1
 
-    # Data Utilities
-    scipy==1.16.0
-    tqdm==4.67.1
-
-    # Development Environment (optional)
-    jupyter==1.1.1
-    ipython==9.4.0
+# Development Environment (optional)
+jupyter==1.1.1
+ipython==9.4.0
 
 
 📄 License
