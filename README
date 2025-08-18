@@ -1,7 +1,7 @@
-#Seismic Magnitude Prediction using Deep Learning
+# Seismic Magnitude Prediction using Deep Learning
 A comprehensive machine learning pipeline for predicting earthquake magnitudes from early-stage 3-component seismic waveforms using 1D CNNs with data augmentation and weighted loss strategies.
 
-##🌟 Key Features
+## 🌟 Key Features
 
     End-to-end pipeline from raw seismic data to magnitude prediction
     Multi-component analysis using Z, N, E seismic components
@@ -19,10 +19,11 @@ A comprehensive machine learning pipeline for predicting earthquake magnitudes f
     pip install obspy==1.4.2 matplotlib==3.10.0
     pip install scipy==1.16.0 tqdm==4.67.1
 
-Full Environment
-    pip install -r requirements.txt
+# Full Environment
+```bash
+pip install -r requirements.txt
 
-##Usage
+## Usage
 ```python
     from seismic_magnitude_prediction import run_experiment
 
